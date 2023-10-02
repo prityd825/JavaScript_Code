@@ -8,7 +8,7 @@ function loadData() {
     // Open
     xhr.open('GET', 'data.txt', true);
 
-    xhr.onprogress = function() {
+    xhr.onprogress = function () {
         console.log(xhr.readyState);
     }
 
