@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Example</title>
+        <script
+            src="script.js"
+            defer
+        ></script>
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <div class="border">
+            <p>This is a card</p>
+            <p id="demo"></p>
+            <p>Enter First name :</p>
+            <input id="firstName" />
+
+            <p>Enter last name :</p>
+            <input id="lastname" />
+
+            <button onclick="submitForm()">Submit</button>
+
+            <p>Full Name:</p>
+            <p id="fullname"></p>
+        </div>
+
+        <p id="demo2"></p>
+        <script>
+            var x = 5;
+            var y = 8;
+            var z = 9;
+            document.getElementById('demo2').innerHTML =
+                'The value of the sum is: ' + (x + y + z);
+        </script>
+    </body>
+</html>
